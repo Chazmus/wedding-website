@@ -325,6 +325,14 @@ Hero
     width: 55%;
     margin-bottom: 12%;
   }
+
+  img {
+    -webkit-filter: drop-shadow(2px 2px 0 grey);
+    filter: drop-shadow(2px 2px 0 grey)
+    //drop-shadow(-2px -2px 0 black);
+    //drop-shadow(-2px -2px 0 black);
+
+  }
 }
 
 .navigation {
@@ -462,15 +470,6 @@ Intro
   }
 }
 
-//.hero-content {
-//  img {
-//    -webkit-filter: drop-shadow(1px 1px 0 white)
-//    drop-shadow(-1px -1px 0 white);
-//    filter: drop-shadow(1px 1px 0 white)
-//    drop-shadow(-1px -1px 0 white);
-//  }
-//
-//}
 
 #intro p {
   text-align: center;
@@ -832,7 +831,7 @@ Engagement Pics
 Embed video
 ========================================================================== */
 #video-bg {
-  height: 300px;
+  height: 400px;
 }
 
 #video-content {
@@ -884,11 +883,6 @@ Google map
   display: inline-block;
   -webkit-transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
   transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
-}
-
-.toggle-map-content {
-  opacity: 0;
-  visibility: hidden;
 }
 
 .pointer-events-none {

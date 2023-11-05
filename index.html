@@ -72,7 +72,7 @@
       <div class="header-content">
         <div class="logo">
           <a href="#">
-            <img src="img/png/logo-no-background.png" alt="Logo">
+            <img src="img/svg/logo-white-transparent.svg" alt="Logo">
           </a>
         </div>
         <div class="header-nav">
@@ -97,7 +97,7 @@
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
         <div class="hero-content text-center">
-          <img src="img/png/logo-no-background.png" alt="Logo">
+          <img src="img/svg/logo-white-transparent.svg" alt="Logo">
         </div>
       </div>
     </div>
@@ -116,8 +116,42 @@
     <div class="row">
       <div class="col-md-12 text-center">
         <h3>We are getting hitched!</h3>
-        <p>On the 7<sup>th</sup> of September 2024 and we would like you to be a part of it.</p>
-        <div class="share-bar"></div>
+        <p>On the 7<sup>th</sup> of September 2024 and we would like you to be a part of it!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="text-center">
+  <h3>Location</h3>
+</div>
+<section id="video-bg" class="hidden-sm hidden-xs">
+  <div id="bgndVideo" class="player"
+       data-property="{videoURL:'https://www.youtube.com/watch?v=xF76tP_wsHk&ab_channel=ArtDeco',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:7, stopAt:169, opacity:1}">
+  </div>
+  <div id="video-content">
+    <h5>Tracy Park</h5>
+  </div>
+</section>
+
+<section id="map" class="section-padding">
+  <div id="map-content" class="pointer-events-auto">
+    <div class="row">
+      <div class="col-md-12 text-center toggle-map">
+        <h5>Address</h5>
+        <p>Tracy Park,<br>Bath Rd,<br>Wick,<br>Bristol,<br>BS30 5RN</p>
+      </div>
+      <div class="map text-center hidden toggle-map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1243.3548200893554!2d-2.4156001546762096!3d51.44512611315736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718464413fe035%3A0xd0a6d43de8f7dec4!2sTracy%20Park!5e0!3m2!1sen!2suk!4v1699172914836!5m2!1sen!2suk"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="eager"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-12" style="padding: 5px;">
+        <a class="btn btn-accent btn-small toggle-map btn-toggle-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show map</a>
+        <a class="btn btn-accent btn-small toggle-map btn-toggle-map hidden" ><i class="fa fa-info"></i>&nbsp;&nbsp;Show info</a>
       </div>
     </div>
   </div>
@@ -171,31 +205,6 @@
           <h5>Carriages <span class="time">12:00AM</span></h5>
           <p></p>
         </div>
-      </div>
-    </div>
-    <div class="row section-padding">
-      <div class="col-md-4 col-md-offset-4 text-center">
-        <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal">
-          <i class="fa fa-barcode"></i>&nbsp;&nbsp;Dress code
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="instagram" class="section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h3>A picture is worth a thousand words!</h3>
-        <p>Help us capture the moment, tag your photos with the hashtag
-          <a href="https://instagram.com/explore/tags/charthawedding/" target="_blank">#CharthaWedding</a>
-        </p>
-      </div>
-    </div>
-    <div class="row section-border wp7">
-      <div class="col-md-4 col-md-offset-4">
-        <img src="img/iphone_instagram.jpg">
       </div>
     </div>
   </div>
@@ -274,47 +283,6 @@
   <div class="container">
     <div class="row hidden-lg hidden-md hidden-xs">
       <div class="col-xs-12 section-border section-padding"></div>
-    </div>
-  </div>
-</section>
-
-<section id="video-bg" class="hidden-sm hidden-xs">
-  <div id="bgndVideo" class="player"
-       data-property="{videoURL:'https://www.youtube.com/watch?v=OVMaVHyH3jg',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:8, stopAt:169, opacity:1}">
-  </div>
-  <div id="video-content">
-    <h5>Beautiful Bath</h5>
-  </div>
-</section>
-
-<section id="map" class="section-padding">
-  <div class="text-center">
-    <h3>The Venue</h3>
-  </div>
-  <div id="map-canvas"></div>
-  <div id="map-content-wrapper" class="container pointer-events-none">
-    <div class="row">
-      <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
-        <div class="text-center">
-          <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
-            <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
-          </div>
-        </div>
-        <div id="map-content" class="pointer-events-auto">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <h5>Tracy Park</h5>
-              <p>Bath Rd,<br>Wick,<br>Bristol,<br>BS30 5RN</p>
-            </div>
-          </div>
-          <div class="row text-center">
-            <div class="col-md-12" style="padding: 5px;">
-              <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
-                map</a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </section>
