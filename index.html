@@ -78,7 +78,7 @@
         <div class="header-nav">
           <nav>
             <ul class="primary-nav">
-              <li class="hidden-sm hidden-xs"><a href="#video-bg">The city</a></li>
+              <li class="hidden-sm hidden-xs"><a href="#venue">The Venue</a></li>
               <li><a href="#map" class="login">Venue</a></li>
               <li><a href="#itinerary">Itinerary</a></li>
             </ul>
@@ -122,19 +122,19 @@
   </div>
 </section>
 
-<div class="text-center">
-  <h3>Location</h3>
-</div>
-<section id="video-bg" class="hidden-sm hidden-xs">
-  <div id="bgndVideo" class="player"
-       data-property="{videoURL:'https://www.youtube.com/watch?v=xF76tP_wsHk&ab_channel=ArtDeco',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:7, stopAt:169, opacity:1}">
+<section id="venue" class="section-padding">
+  <div class="text-center">
+    <h3>The Venue</h3>
   </div>
-  <div id="video-content">
-    <h5>Tracy Park</h5>
-  </div>
-</section>
+  <section id="video-bg" class="hidden-sm hidden-xs">
+    <div id="bgndVideo" class="player"
+         data-property="{videoURL:'https://www.youtube.com/watch?v=xF76tP_wsHk&ab_channel=ArtDeco',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:7, stopAt:169, opacity:1}">
+    </div>
+    <div id="video-content">
+      <h5>Tracy Park</h5>
+    </div>
+  </section>
 
-<section id="map" class="section-padding">
   <div id="map-content" class="pointer-events-auto">
     <div class="row">
       <div class="col-md-12 text-center toggle-map">
@@ -150,8 +150,10 @@
     </div>
     <div class="row text-center">
       <div class="col-md-12" style="padding: 5px;">
-        <a class="btn btn-accent btn-small toggle-map btn-toggle-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show map</a>
-        <a class="btn btn-accent btn-small toggle-map btn-toggle-map hidden" ><i class="fa fa-info"></i>&nbsp;&nbsp;Show info</a>
+        <a class="btn btn-accent btn-small toggle-map btn-toggle-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
+          map</a>
+        <a class="btn btn-accent btn-small toggle-map btn-toggle-map hidden"><i class="fa fa-info"></i>&nbsp;&nbsp;Show
+          info</a>
       </div>
     </div>
   </div>

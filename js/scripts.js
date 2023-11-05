@@ -183,20 +183,20 @@ $(document).ready(function () {
             title: "Chaz and Martha's Wedding",
 
             // Event start date
-            start: new Date('Nov 27, 2017 10:00'),
+            start: new Date('Sep 7, 2024 12:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Nov 29, 2017 00:00'),
+            end: new Date('Sep 8, 2024 00:00'),
 
             // Event Address
-            address: 'ITC Fortune Park Hotel, Kolkata',
+            address: 'Tracy Park, Bath Rd, Wick, Bristol, BS30 5RN',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Mr. Amit Roy at +91 9876543210."
+            description: "We can't wait to see you on our big day. For any queries or issues, please contact Chaz on +44 7818071756."
         }
     });
 
@@ -210,11 +210,11 @@ $(document).ready(function () {
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
-        if (MD5($('#invite_code').val()) !== '58114106f69c012ea5c76754421fb566') {
+        if (MD5($('#invite_code').val()) !== 'c79beab18d39222630870597644e9bca') {
             $('#alert-wrapper').html(alert_markup('danger',
                 '<strong>Sorry!</strong> Your invite code is incorrect.'));
         } else {
-            $.post('https://script.google.com/macros/s/AKfycbxr4-0_1TDAcO3x0Ucviy7U6-4txSWQgrhfEBvGL1XL6jO7yiC_RsPjWRWFE7t9y7Aw/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbw5dliUVJsc9Sbhd9su_KafqEDm-r5keFxvHcmwAOEsdEy8tow2P1Gbe9V6TmC9M-aC/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
