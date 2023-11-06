@@ -196,7 +196,7 @@ $(document).ready(function () {
             address: 'Tracy Park, Bath Rd, Wick, Bristol, BS30 5RN',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Chaz on +44 7818071756."
+            description: "We can't wait to see you on our big day. For any queries or issues, feel free to get in touch"
         }
     });
 
