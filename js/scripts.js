@@ -5,51 +5,60 @@ $(document).ready(function () {
     $('.wp1').waypoint(function () {
         $('.wp1').addClass('animated fadeInLeft');
     }, {
-        offset: '75%'
+        offset: '85%'
     });
     $('.wp2').waypoint(function () {
         $('.wp2').addClass('animated fadeInRight');
     }, {
-        offset: '75%'
+        offset: '85%'
     });
     $('.wp3').waypoint(function () {
         $('.wp3').addClass('animated fadeInLeft');
     }, {
-        offset: '75%'
+        offset: '85%'
     });
     $('.wp4').waypoint(function () {
         $('.wp4').addClass('animated fadeInRight');
     }, {
-        offset: '75%'
+        offset: '85%'
     });
     $('.wp5').waypoint(function () {
-        $('.wp5').addClass('animated fadeInLeft');
+       $('.wp5').addClass('animated fadeInLeft');
     }, {
-        offset: '75%'
+        offset: '85%'
     });
     $('.wp6').waypoint(function () {
         $('.wp6').addClass('animated fadeInRight');
     }, {
-        offset: '75%'
+        offset: '85%'
     });
 
     $('.wp7').waypoint(function () {
-        $('.wp7').addClass('animated fadeInUp');
+        $('.wp7').addClass('animated fadeInLeft');
     }, {
-        offset: '75%'
+        offset: '85%'
     });
-
-
     $('.wp8').waypoint(function () {
-        $('.wp8').addClass('animated fadeInLeft');
+        $('.wp8').addClass('animated fadeInRight');
     }, {
-        offset: '75%'
+        offset: '85%'
     });
     $('.wp9').waypoint(function () {
-        $('.wp9').addClass('animated fadeInRight');
+        $('.wp9').addClass('animated fadeInLeft');
     }, {
-        offset: '75%'
+        offset: '85%'
     });
+    $('.wp10').waypoint(function () {
+        $('.wp10').addClass('animated fadeInRight');
+    }, {
+        offset: '85%'
+    });
+    $('.wp11').waypoint(function () {
+        $('.wp11').addClass('animated fadeInLeft');
+    }, {
+        offset: '85%'
+    });
+
 
     /***************** Initiate Flexslider ******************/
     $('.flexslider').flexslider({
@@ -196,7 +205,7 @@ $(document).ready(function () {
             address: 'Tracy Park, Bath Rd, Wick, Bristol, BS30 5RN',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, feel free to get in touch"
+            description: "We can't wait to see you on our big day. For any queries or issues, feel free to get in touch!"
         }
     });
 
@@ -348,12 +357,10 @@ var MD5 = function (string) {
 
             if (c < 128) {
                 utftext += String.fromCharCode(c);
-            }
-            else if ((c > 127) && (c < 2048)) {
+            } else if ((c > 127) && (c < 2048)) {
                 utftext += String.fromCharCode((c >> 6) | 192);
                 utftext += String.fromCharCode((c & 63) | 128);
-            }
-            else {
+            } else {
                 utftext += String.fromCharCode((c >> 12) | 224);
                 utftext += String.fromCharCode(((c >> 6) & 63) | 128);
                 utftext += String.fromCharCode((c & 63) | 128);
