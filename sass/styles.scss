@@ -927,19 +927,6 @@ RSVP form
       text-align: left;
       position: relative;
 
-      .checkbox-label {
-        padding-top: 16px;
-        padding-left: 60px;
-        color: $form-placeholder;
-
-        input {
-          height: 70%;
-          margin-left: -88px;
-          margin-top: -8px;
-        }
-
-      }
-
       i {
         color: $accent-color;
         font-size: 14px;
